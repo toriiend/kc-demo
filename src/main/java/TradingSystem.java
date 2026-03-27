@@ -12,10 +12,10 @@ public class TradingSystem {
     public static void executeOrder(int flag) {
         if (flag == 1) {
         // ĐÂY LÀ MÃ NGUỒN CHẾT (DEAD CODE) LẼ RA PHẢI XÓA TỪ 8 NĂM TRƯỚC
-            activatePowerPegMode(); 
+            whatever(); 
         }
     }
-    private static void activatePowerPegMode() {
+    private static void whatever() {
         int orders = 0;
         while (true) {
             orders++;
@@ -24,3 +24,4 @@ public class TradingSystem {
         }
     }
 }
+//Test da;msa;am

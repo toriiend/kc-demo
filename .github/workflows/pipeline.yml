@@ -40,7 +40,7 @@ jobs:
         run: >
           mvn -B verify
           org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
-          -Dsonar.projectKey=kc-demo
+          -Dsonar.projectKey=toriiend_kc-demo
 
       # BƯỚC CUỐI: ĐÓNG GÓI
       - name: 3. Đóng gói sản phẩm (Build Artifact)
